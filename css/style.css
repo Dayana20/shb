@@ -6,7 +6,7 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
 }
-
+/* https://coolors.co/b7094c-a01a58-892b64-723c70-5c4d7d-455e89-2e6f95-1780a1-0091ad */
 .navbar{
     height: 100px;
     grid-column: 2/6;
@@ -39,4 +39,16 @@ body{
     background-color: blanchedalmond;
     text-align: center;
     text-align: center;
+}
+
+#smt_container{
+    grid-row: 2/3;
+    grid-column: 2/6;
+    background-color: blanchedalmond;;
+    /* background-color: #B7094C; */
+}
+.link{
+    /* background-color: blanchedalmond; */
+    text-decoration: none;
+    color:black
 }
